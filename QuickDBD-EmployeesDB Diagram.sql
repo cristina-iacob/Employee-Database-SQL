@@ -8,7 +8,7 @@ CREATE TABLE "Employees" (
     "bith_date" DATE   NOT NULL,
     "first_name" VARCHAR(30)   NOT NULL,
     "last_name" VARCHAR(30)   NOT NULL,
-    "gender" ENUM('M','F')   NOT NULL,
+    "gender" CHAR(1)   NOT NULL,
     "hire_date" DATE   NOT NULL,
     CONSTRAINT "pk_Employees" PRIMARY KEY (
         "emp_no"

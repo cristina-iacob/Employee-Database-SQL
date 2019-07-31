@@ -7,7 +7,7 @@ CREATE TABLE Employees (
     bith_date DATE,
     first_name VARCHAR(30),
     last_name VARCHAR(30),
-    gender ENUM('M','F'),
+    gender CHAR(1),
     hire_date DATE,
     CONSTRAINT pk_Employees PRIMARY KEY (
         emp_no
